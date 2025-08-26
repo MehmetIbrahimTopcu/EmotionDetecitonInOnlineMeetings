@@ -1,32 +1,44 @@
-Emotion Detection in Online Meetings
+🎭 Emotion Detection in Online Meetings
 
-This project aims to detect and classify participants' emotions in online meetings by analyzing facial expressions. The model is trained on a dataset downloaded from Kaggle and can perform predictions on real-time screen captures.
+This project focuses on detecting and classifying participants' emotions in online meetings by analyzing facial expressions.
+The model is trained on a Kaggle dataset and can perform predictions on real-time screen captures.
+
 
 📂 Contents
 
-deep_learning_model.ipynb → Use this notebook to train or modify the model according to your needs.
+📘 deep_learning_model.ipynb → Train or modify the model according to your needs.
 
-main.ipynb → This notebook uses the trained model to perform real-time emotion prediction, particularly from screen captures during online meetings.
+⚡ main.ipynb → Run real-time emotion prediction on faces detected in screen captures during online meetings.
+
+
 
 📝 Usage
-Training the Model
+🔹 Training the Model
 
-Open deep_learning_model.ipynb.
+Open deep_learning_model.ipynb
 
-Adjust model parameters if needed.
+Adjust model parameters if necessary
 
-Run the notebook to train or fine-tune the model.
+Run all cells to train or fine-tune the model
 
-Real-Time Prediction
 
-Open main.ipynb.
 
-Run the notebook to start capturing screen images and performing emotion predictions on faces detected in online meetings.
+🔹 Real-Time Prediction
+
+Open main.ipynb
+
+Run the notebook to:
+
+Capture screen images
+
+Detect faces
+
+Predict emotions in real-time
+
+
 
 📊 Project Details
-
-The system detects faces from screen captures, extracts them, and predicts emotions using a trained deep learning model.
-
-The workflow can be run locally on your computer or adapted for different meeting platforms.
-
-The two-notebook structure allows flexible experimentation with the model while keeping the prediction pipeline simple and ready-to-use.
+✔️ Detects faces from live screen captures
+✔️ Classifies emotions using a trained deep learning model
+✔️ Works locally on your computer, adaptable for different meeting platforms
+✔️ Clear separation between model training and real-time prediction for flexibility
